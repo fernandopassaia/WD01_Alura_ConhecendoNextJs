@@ -1,0 +1,21 @@
+{
+  "name": "WD01_Alura_ConhecendoNextJs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/fernandopassaia/WD01_Alura_ConhecendoNextJs",
+  "author": "Fernando Passaia <fernandopassaia@futuradata.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^15.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "WD01_Alura_ConhecendoNextJs": "file:"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  }
+}
